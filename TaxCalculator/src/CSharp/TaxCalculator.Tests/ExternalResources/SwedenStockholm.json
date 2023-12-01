@@ -1,0 +1,485 @@
+﻿{
+	"$id": "1",
+	"Id": 2,
+	"Name": "Stockholm",
+	"TaxUnits": {
+		"$id": "2",
+		"$values": [
+
+			{
+				"$id": "3",
+				"Id": 1,
+				"FromTime": "06:00:00",
+				"ToTime": "06:29:00",
+				"CurrencyType": 6,
+				"Amount": 8,
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "4",
+				"Id": 2,
+				"FromTime": "06:30:00",
+				"ToTime": "06:59:00",
+				"CurrencyType": 6,
+				"Amount": 13,
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "5",
+				"Id": 3,
+				"FromTime": "07:00:00",
+				"ToTime": "07:59:00",
+				"CurrencyType": 6,
+				"Amount": 18,
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "6",
+				"Id": 4,
+				"FromTime": "08:00:00",
+				"ToTime": "08:29:00",
+				"CurrencyType": 6,
+				"Amount": 13,
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "7",
+				"Id": 5,
+				"FromTime": "08:30:00",
+				"ToTime": "14:59:00",
+				"CurrencyType": 6,
+				"Amount": 8,
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "8",
+				"Id": 6,
+				"FromTime": "15:00:00",
+				"ToTime": "15:29:00",
+				"CurrencyType": 6,
+				"Amount": 13,
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "9",
+				"Id": 7,
+				"FromTime": "15:30:00",
+				"ToTime": "16:59:00",
+				"CurrencyType": 6,
+				"Amount": 18,
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "10",
+				"Id": 8,
+				"FromTime": "17:00:00",
+				"ToTime": "17:59:00",
+				"CurrencyType": 6,
+				"Amount": 13,
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "11",
+				"Id": 9,
+				"FromTime": "18:00:00",
+				"ToTime": "18:29:00",
+				"CurrencyType": 6,
+				"Amount": 8,
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "12",
+				"Id": 10,
+				"FromTime": "18:30:00",
+				"ToTime": "05:29:00",
+				"CurrencyType": 6,
+				"Amount": 0,
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			}
+		]
+	},
+	"PublicHolidays": {
+		"$id": "13",
+		"$values": [
+
+			{
+				"$id": "14",
+				"Id": 1,
+				"Date": "2013-01-01",
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "15",
+				"Id": 2,
+				"Date": "2013-01-28",
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "16",
+				"Id": 3,
+				"Date": "2013-02-24",
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "17",
+				"Id": 4,
+				"Date": "2013-03-23",
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "18",
+				"Id": 5,
+				"Date": "2013-04-19",
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "19",
+				"Id": 6,
+				"Date": "2013-05-16",
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "20",
+				"Id": 7,
+				"Date": "2013-06-12",
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "21",
+				"Id": 8,
+				"Date": "2013-07-09",
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "22",
+				"Id": 9,
+				"Date": "2013-08-05",
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "23",
+				"Id": 10,
+				"Date": "2013-09-01",
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "24",
+				"Id": 11,
+				"Date": "2013-09-28",
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "25",
+				"Id": 12,
+				"Date": "2013-10-25",
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "26",
+				"Id": 13,
+				"Date": "2013-11-21",
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			},
+			{
+				"$id": "27",
+				"Id": 14,
+				"Date": "2013-12-18",
+				"CityId": 2,
+				"City": {
+					"$ref": "1"
+
+				}
+			}
+		]
+	},
+	"CityVehicleTaxExemptions": {
+		"$id": "28",
+		"$values": [
+
+			{
+				"$id": "29",
+				"CityId": 2,
+				"VehicleId": 2,
+				"City": {
+					"$ref": "1"
+
+				},
+				"Vehicle": {
+					"$id": "30",
+					"Id": 2,
+					"Name": "Motorbike",
+					"CityVehicleTaxExemptions": {
+						"$id": "31",
+						"$values": [
+
+							{
+								"$ref": "29"
+
+							}
+						]
+					}
+				}
+			},
+			{
+				"$id": "32",
+				"CityId": 2,
+				"VehicleId": 4,
+				"City": {
+					"$ref": "1"
+
+				},
+				"Vehicle": {
+					"$id": "33",
+					"Id": 4,
+					"Name": "Tractor",
+					"CityVehicleTaxExemptions": {
+						"$id": "34",
+						"$values": [
+
+							{
+								"$ref": "32"
+
+							}
+						]
+					}
+				}
+			},
+			{
+				"$id": "35",
+				"CityId": 2,
+				"VehicleId": 6,
+				"City": {
+					"$ref": "1"
+
+				},
+				"Vehicle": {
+					"$id": "36",
+					"Id": 6,
+					"Name": "Emergency",
+					"CityVehicleTaxExemptions": {
+						"$id": "37",
+						"$values": [
+
+							{
+								"$ref": "35"
+
+							}
+						]
+					}
+				}
+			},
+			{
+				"$id": "38",
+				"CityId": 2,
+				"VehicleId": 8,
+				"City": {
+					"$ref": "1"
+
+				},
+				"Vehicle": {
+					"$id": "39",
+					"Id": 8,
+					"Name": "Busses",
+					"CityVehicleTaxExemptions": {
+						"$id": "40",
+						"$values": [
+
+							{
+								"$ref": "38"
+
+							}
+						]
+					}
+				}
+			},
+			{
+				"$id": "41",
+				"CityId": 2,
+				"VehicleId": 10,
+				"City": {
+					"$ref": "1"
+
+				},
+				"Vehicle": {
+					"$id": "42",
+					"Id": 10,
+					"Name": "Motorcycles",
+					"CityVehicleTaxExemptions": {
+						"$id": "43",
+						"$values": [
+
+							{
+								"$ref": "41"
+
+							}
+						]
+					}
+				}
+			},
+			{
+				"$id": "44",
+				"CityId": 2,
+				"VehicleId": 12,
+				"City": {
+					"$ref": "1"
+
+				},
+				"Vehicle": {
+					"$id": "45",
+					"Id": 12,
+					"Name": "Diplomat",
+					"CityVehicleTaxExemptions": {
+						"$id": "46",
+						"$values": [
+
+							{
+								"$ref": "44"
+
+							}
+						]
+					}
+				}
+			},
+			{
+				"$id": "47",
+				"CityId": 2,
+				"VehicleId": 14,
+				"City": {
+					"$ref": "1"
+
+				},
+				"Vehicle": {
+					"$id": "48",
+					"Id": 14,
+					"Name": "Military",
+					"CityVehicleTaxExemptions": {
+						"$id": "49",
+						"$values": [
+
+							{
+								"$ref": "47"
+
+							}
+						]
+					}
+				}
+			},
+			{
+				"$id": "50",
+				"CityId": 2,
+				"VehicleId": 16,
+				"City": {
+					"$ref": "1"
+
+				},
+				"Vehicle": {
+					"$id": "51",
+					"Id": 16,
+					"Name": "Foreign",
+					"CityVehicleTaxExemptions": {
+						"$id": "52",
+						"$values": [
+
+							{
+								"$ref": "50"
+
+							}
+						]
+					}
+				}
+			}
+		]
+	}
+}

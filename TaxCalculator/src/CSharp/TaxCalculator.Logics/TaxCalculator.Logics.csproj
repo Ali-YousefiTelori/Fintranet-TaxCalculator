@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>TaxCalculator</RootNamespace>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Compile Remove="DatabaseLogics\**" />
+    <EmbeddedResource Remove="DatabaseLogics\**" />
+    <None Remove="DatabaseLogics\**" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\TaxCalculator.Database\TaxCalculator.Database.csproj" />
+  </ItemGroup>
+  
+</Project>
